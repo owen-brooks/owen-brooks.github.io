@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Welcome!"
-date:   2018-06-03 14:34:25
-categories: jekyll update
+date:   2018-06-04 14:34:25
+categories: jekyll intro
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 ---
