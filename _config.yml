@@ -1,76 +1,57 @@
-# Site
-title:              Owen Brooks
-bio:                'Personal website and blog.'
-description:        "Insert bio here"
-reading_time:       true
-words_per_minute:   100
-logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://owen-brooks.github.io
+# Build settings
+plugins:
+  - jemoji
+  - jekyll-paginate
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
 
-# Comments
-disqus_shortname:   owenbrooks
+# Site settings
+title: "Owen Brooks"
+description: > # this means to ignore newlines until "email:"
+   Blog & Personal Website
 
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-#email:
-twitter:            username
-facebook:           username
-github-url:         username
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-instagram:          username
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
+email: oqbrooks@gmail.com
+#blog logo
+logo: "/assets/images/df_logo.png"
+float_logo: true # true, false (default)
 
-# Gems
-gems:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
+# blog cover
+cover: "/assets/images/background_image.jpg"
 
-jekyll-mentions:
-    base_url: https://github.com
+name: 'Owen Brooks'
+author: 'Owen Brooks'
+author_image: "/assets/images/author.jpg"
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+paginate:	5
+
+url: "http://localhost:4000" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@dirkfabisch'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
+social:
+  - icon:	linkedin
+    url:	https://www.linkedin.com/in/owen-brooks-11531b12b/
+    desc: Connect with me on LinkedIn
+    share_url: 
+    share_title: 
+    share_link: 
+
+  - icon:	github
+    url:	https://github.com/owen-brooks
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:

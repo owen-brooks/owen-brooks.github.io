@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Owen Brooks</title>
+    <description>Blog &amp; Personal Website
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 20 Jun 2018 21:36:20 -0400</pubDate>
+    <lastBuildDate>Wed, 20 Jun 2018 21:36:20 -0400</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>My Co-op at G3</title>
+        <description>&lt;p&gt;During the summer of 2017 I worked as a Software Engineering Co-op for G3 Technologies, a defense contractor located around D.C.. G3 works primarily on RF products that are sold to the U.S. military for over-seas use. This was my first of three Co-ops that are part of my degree program at Drexel University. This post will explain: what I did, what I liked and what I disliked.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-i-did&quot;&gt;What I Did&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hardware Test Applications: Fixed bugs and learned more about application frameworks. Specifically applications built in Python using the popular framework: wxPython. Had to communicate with hardware technicians to understand how they used the software and accordingly, what to change.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;RF Tuning and Production: Ran system level test on radio units and learned about vibration and heat testing. Learned how test data was logged and then uploaded to the network to be validated. Became way to comfortable using a soldering iron. Also became proficient with tools such as oscilloscope, network analyzer and waveform generator.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Microcontroller Programming: Learned C in order to be able to use a Arduino to test first-design circuit boards. Discovered and implemented the use of FTDI cables to eliminate microcontroller use. FTDI cables can be used to both read and write data on separate lines, allowing for custom and easily adaptable testing.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;what-i-liked&quot;&gt;What I liked&lt;/h1&gt;
+
+&lt;p&gt;I worked at the Mt. Airy office which was about a 15-minute drive from my home. This allowed me extra time to focus on training for wrestling and continue work on my car. I also liked that I was forced to learn C on the job. This would help me in my classes during the following term, and will also help me in the future if I ever decide to look into automotive programming. Lastly I got a lot of general knowledge pertaining to two fields I will not choose to pursue: mechanical and electrical engineering.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-i-didnt-like&quot;&gt;What I didn’t like&lt;/h1&gt;
+
+&lt;p&gt;Most of what I didn’t like about working at G3 was a result of me not having any experience both in programming and working professionally. I felt I didn’t not want to “bug” my manager and thus didn’t get to do as much programming as I had hopped. This was however useful as at my current co-op I am more driven to find and work on projects that interest me. I also felt like communication at G3 was slow and inefficient. We did most of our communication through email, which created a general lag in how fast things could get done.&lt;/p&gt;
+
+&lt;p&gt;In conclusion I do value my time spent at G3. I feel I was successful at the task given to me but could have been even more successful had I been given more complicated problems to solve. I would definitely consider working for them again, however in a role more catered towards my interests.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 04 Jun 2018 10:34:25 -0400</pubDate>
+        <link>http://localhost:4000/g3/intern/2018/06/04/my-g3-coop.html</link>
+        <guid isPermaLink="true">http://localhost:4000/g3/intern/2018/06/04/my-g3-coop.html</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>G3</category>
+        
+        <category>intern</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome!</title>
+        <description>&lt;p&gt;Welcome to my personal website!&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloWorld&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+        &lt;span class=&quot;n&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello, World&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Fri, 29 Aug 2014 10:34:25 -0400</pubDate>
+        <link>http://localhost:4000/jekyll/update/2014/08/29/introduction.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2014/08/29/introduction.html</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

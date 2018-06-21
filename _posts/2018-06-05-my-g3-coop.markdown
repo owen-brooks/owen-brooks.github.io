@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "My Co-op at G3"
+date:   2018-06-04 14:34:25
+categories: G3 intern
+tags: featured
+image: /assets/article_images/2018-06-05-my-g3-coop/G3.jpg
+---
+During the summer of 2017 I worked as a Software Engineering Co-op for G3 Technologies, a defense contractor located around D.C.. G3 works primarily on RF products that are sold to the U.S. military for over-seas use. This was my first of three Co-ops that are part of my degree program at Drexel University. This post will explain: what I did, what I liked and what I disliked.
+
+# What I Did
+
+
+* Hardware Test Applications: Fixed bugs and learned more about application frameworks. Specifically applications built in Python using the popular framework: wxPython. Had to communicate with hardware technicians to understand how they used the software and accordingly, what to change.
+
+* RF Tuning and Production: Ran system level test on radio units and learned about vibration and heat testing. Learned how test data was logged and then uploaded to the network to be validated. Became way to comfortable using a soldering iron. Also became proficient with tools such as oscilloscope, network analyzer and waveform generator. 
+
+* Microcontroller Programming: Learned C in order to be able to use a Arduino to test first-design circuit boards. Discovered and implemented the use of FTDI cables to eliminate microcontroller use. FTDI cables can be used to both read and write data on separate lines, allowing for custom and easily adaptable testing.
+
+# What I liked
+
+
+I worked at the Mt. Airy office which was about a 15-minute drive from my home. This allowed me extra time to focus on training for wrestling and continue work on my car. I also liked that I was forced to learn C on the job. This would help me in my classes during the following term, and will also help me in the future if I ever decide to look into automotive programming. Lastly I got a lot of general knowledge pertaining to two fields I will not choose to pursue: mechanical and electrical engineering.
+
+# What I didn’t like
+
+
+Most of what I didn’t like about working at G3 was a result of me not having any experience both in programming and working professionally. I felt I didn’t not want to “bug” my manager and thus didn’t get to do as much programming as I had hopped. This was however useful as at my current co-op I am more driven to find and work on projects that interest me. I also felt like communication at G3 was slow and inefficient. We did most of our communication through email, which created a general lag in how fast things could get done.
+
+In conclusion I do value my time spent at G3. I feel I was successful at the task given to me but could have been even more successful had I been given more complicated problems to solve. I would definitely consider working for them again, however in a role more catered towards my interests.
+
+
