@@ -22,7 +22,7 @@ About a month ago I made the switch form the default apple podcast app (I have a
 
 * **The Smoking Tire** – Another car show. The best episodes are interviews with automotive engineers. I recommend the episode where he has on, the founder of Banks Power. Very interesting stuff on diesel engines.
 
-* **Waking Up** – Not the biggest fan of Sam Harris’s views. He is however a amazing speaker and debater. He has great interviews with medical professionals such as a cancer researcher, and doctor who specializes in infant hear surgery.
+* **Waking Up** – Not the biggest fan of Sam Harris’s views. He is however a amazing speaker and debater. He has great interviews with medical professionals such as a cancer researcher, and doctor who specializes in infant heart surgery.
 
 * **Joe Rogan Experience** – Who doesn’t listen to this? Its by far the most popular podcast and the amount of views it gets per episode is staggering. The shows vary widely in quality and topic.
 
