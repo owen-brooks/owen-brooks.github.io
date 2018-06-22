@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On Podcasts"
+title:  "Podcasts"
 date:   2018-06-20 14:34:25
 categories: Podcasts 
 tags: featured
