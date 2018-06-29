@@ -4,7 +4,7 @@ title:  "Using External Jars With Maven"
 date:   2018-06-29 10:34:25
 categories: Maven Java Build 
 tags: featured
-image: /assets/article_images/Podcasts/headphones.jpg
+image: /assets/article_images/maven-external-jar/feather.png
 ---
 Maven is a great tool. It makes managing dependencies, packaging and deployment extremely easy. Maven relies on a pom.xml file in order to work. Users include dependencies in this file and maven pulls the jars from its public repository. These dependencies can also be adapted to use private / third-party repositories. The problem comes when you want to use an external jar that is not already in a repository. I will explore two solutions, detailing how to get around this.
 
