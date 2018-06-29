@@ -6,8 +6,7 @@ categories: Podcasts
 tags: featured
 image: /assets/article_images/Podcasts/headphones.jpg
 ---
-Currently I have about a one hour commute, each way, to my summer job. While I listened to them before, podcast have quickly become my go to tool for media consumption. I attend to use this post as a ongoing list of the shows I listen to
-
+Currently I have about a one hour commute, each way, to my summer job. While I listened to them before, podcast have quickly become my go to tool for media consumption. I attend to use this post as a ongoing list of the shows I listen to.
 
 # The List 
 *Quick note: This list is in no general order. I do not support many of the ideas presented in the podcasts listed below. This list is meant to create exposure for some great podcasts.*
