@@ -7,7 +7,7 @@ tags: featured
 image: /assets/article_images/maven-external-jar/feather.png
 ---
 Maven is a great tool. It makes managing dependencies, packaging and deployment extremely easy. Maven relies on a pom.xml file in order to work. Users include dependencies in this file and maven pulls the jars from its public repository. These dependencies can also be adapted to use private / third-party repositories. The problem comes when you want to use an external jar that is not already in a repository. I will explore two solutions, detailing how to get around this.
-# Option 1: Deploy the jar your local repository
+# Option 1: Deploy the jar to your local repository
 
 This option is good for jars that you do not want released / available to other people. This comes into play when using purchased software that you do not have the legal rights to distribute. This does however, increase the size of your project as jars will need to be stored with your project files.
 Steps:
