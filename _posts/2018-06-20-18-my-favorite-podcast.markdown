@@ -26,6 +26,6 @@ Currently I have about a one hour commute, each way, to my summer job. While I l
 
 * **Hardcore History** – Definitely has the longest podcast episodes on this list. Dan Carlin creates extremely intricate storytelling and visuals in describing stories from history. While he often claims to not be a historian, Carlin does a unparalleled job of related our present day experience to the lives of those that came before us. Only podcast where I have listened to each episode multiple times.
 
-* **Serial** – Extremely addicting crime show. Investigates cases that are both highly controversial, and plain weird.
+* **Serial** – Extremely addicting crime show. Investigates cases that are highly controversial.
 
 * **Levar Burton Reads** – Short stories, read by a man with a amazing voice. Listen to these, you will know what I mean.
