@@ -1,4 +1,4 @@
-Personal website built with Jekyll.
+> personal website built with Jekyll.
 
 Uses mediatator theme. 
 
