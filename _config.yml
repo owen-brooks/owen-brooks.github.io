@@ -7,7 +7,7 @@ plugins:
 # Site settings
 title: "Owen Brooks"
 description: > # this means to ignore newlines until "email:"
-   Blog & Personal Website
+   Personal Website
 
 email: oqbrooks@gmail.com
 #blog logo
