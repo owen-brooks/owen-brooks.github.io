@@ -35,7 +35,7 @@ The next step is to locate and retrieve the data you want to scrape.
 
 # Scraping URLs
 
-As you saw above, in order to web scrape you need a URL. Craigslist’s main page has links to different regions around the US. Looking through the raw HTML it seems the links for each country are organized in HTML **\<div>**’s with the class “colmask”. The US section is first on the page and can be found with the following code
+As you saw above, in order to web scrape you need a URL. Craigslist’s main page has links to different regions around the US. Looking through the raw HTML it seems the links for each country are organized in HTML **\<div>**’s with the class “colmask”. The US section is first on the page and can be found with the following code:
 
 {% highlight python %}
 
@@ -43,7 +43,7 @@ USSection = page.find("div", {"class": "colmask"})
 
 {% endhighlight %}
 
-Here the **find()** function is return the first occurrence of a **\<div>** with the class “colmask”. Within the US column each state is within a **\<h4>** tag, followed by the links for the regions in **\<ul>** tags. The following code scrapes the HTML, creating a dictionary with the state names as keys, and an array of region URLs as values:
+Here the **find()** function is returning the first occurrence of a **\<div>** with the class “colmask”. Within the US column each state is within a **\<h4>** tag. This is followed by the links for the regions in **\<ul>** tags. The following code scrapes the HTML, creating a dictionary with the state names as keys, and an array of region URLs as values:
 
 {% highlight python %}
 
@@ -63,7 +63,7 @@ regionList = []
 
 {% endhighlight %}
 
-Example, abbreviated return:
+An example, abbreviated return:
 
 {% highlight json %}
 {
