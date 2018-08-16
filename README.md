@@ -2,4 +2,6 @@
 
 Uses mediatator theme. 
 
-Acess at https://owen-brooks.github.io
+Check it:
+
+https://owen-brooks.github.io
