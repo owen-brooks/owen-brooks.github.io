@@ -3,10 +3,11 @@ plugins:
   - jemoji
   - jekyll-paginate
 
+
 # Site settings
 title: "Owen Brooks"
 description: > # this means to ignore newlines until "email:"
-  Programmer
+   Portfolio & Personal Website
 
 email: oqbrooks@gmail.com
 #blog logo
@@ -16,16 +17,16 @@ float_logo: true # true, false (default)
 # blog cover
 cover: "/assets/images/background_image.jpg"
 
-name: "Owen Brooks"
-author: "Owen Brooks"
+name: 'Owen Brooks'
+author: 'Owen Brooks'
 author_image: "/assets/images/author.jpg"
 
-paginate: 5
+paginate:	5
 
 url: "owen-brooks.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-twitter_handle: "@dirkfabisch"
+twitter_handle: '@dirkfabisch'
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
@@ -34,19 +35,19 @@ twitter_handle: "@dirkfabisch"
 
 # social icons and sharing options
 social:
-  - icon: linkedin
-    url: https://www.linkedin.com/in/owen-brooks-11531b12b/
+  - icon:	linkedin
+    url:	https://www.linkedin.com/in/owen-brooks-11531b12b/
     desc: Connect with me on LinkedIn
-    ? share_url
-    ? share_title
-    ? share_link
+    share_url: 
+    share_title: 
+    share_link: 
 
-  - icon: github
-    url: https://github.com/owen-brooks
-    desc: Fork me on github
-    ? share_url
-    ? share_title
-    ? share_link
+  - icon:	github
+    url:	https://github.com/owen-brooks
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
 
 #  - icon:	google-plus
 #    url:	https://google.com/???
