@@ -20,17 +20,16 @@ The following Python3 code will get you the HTML to Craigslist’s home page:
 
 {% highlight python %}
 
-    import urllib.request
-    from bs4 import BeautifulSoup
+import urllib.request
+from bs4 import BeautifulSoup
 
-    request = urllib.request.Request('https://www.craigslist.org/about/sites')
-    response = urllib.request.urlopen(request)
-    page = BeautifulSoup(response.read().decode('utf-8'), "html.parser")
+request = urllib.request.Request('https://www.craigslist.org/about/sites')
+response = urllib.request.urlopen(request)
+page = BeautifulSoup(response.read().decode('utf-8'), "html.parser")
 
 {% endhighlight %}
 
 The next step is to locate and retrieve the data you want to scrape.
-
 # Scraping URLs
 
 As you saw above, in order to web scrape you need a URL. Craigslist’s main page has links to different regions around the US. Looking through the raw HTML it seems the links for each country are organized in HTML **\<div>**’s with the class “colmask”. The US section is first on the page and can be found with the following code
@@ -44,19 +43,19 @@ Here the **find()** function is return the first occurrence of a **\<div>** with
 
 {% highlight python %}
 
-    data = {} # Remove territories
-    stateList = USSection.find_all("h4")[:-1]
+data = {} # Remove territories
+stateList = USSection.find_all("h4")[:-1]
 
-    for idx, state in enumerate(stateList):
-        regionHTML = USSection.find_all("ul")[idx].find_all("a")
-        regionList = []
+for idx, state in enumerate(stateList):
+    regionHTML = USSection.find_all("ul")[idx].find_all("a")
+    regionList = []
 
-        # iterate through list of region URLs
-        for ii in regionHTML:
-            # get URL for region
-            regionList.append(ii['href'])
+    # iterate through list of region URLs
+    for ii in regionHTML:
+        # get URL for region
+        regionList.append(ii['href'])
 
-        data[state.text] = regionList
+    data[state.text] = regionList
 
 {% endhighlight %}
 
@@ -69,27 +68,25 @@ Example, abbreviated return:
     'Arizona': ['https://flagstaff.craigslist.org', 'https://mohave.craigslist.org']
 }
 ```
-
 # Scraping Posts
 
 Now that you have a bunch of URLs it is time for the fun stuff. This example will cover the scraping of car postings. However – Craigslist has a ton of weird, interesting stuff you might want to check out. Using one of the base URLs we found above, we will find the post data for tesla in Auburn, AL:
 
 {% highlight python %}
 
-    url = 'https://auburn.craigslist.org'
-    searchString = ‘/search/cta?query=tesla’
+url = 'https://auburn.craigslist.org'
+searchString = ‘/search/cta?query=tesla’
 
-    request = urllib.request.Request(url + searchString)
-    response = urllib.request.urlopen(request)
-    page = BeautifulSoup(
-    response.read().decode('utf-8'), 'html.parser')
+request = urllib.request.Request(url + searchString)
+response = urllib.request.urlopen(request)
+page = BeautifulSoup(
+response.read().decode('utf-8'), 'html.parser')
 
-    posts = page.find_all('li', {'class': 'result-row'})
+posts = page.find_all('li', {'class': 'result-row'})
 
 {% endhighlight %}
 
 The posts are found in **\<li>** tags with the class “result-row”. The **find_all()** function returns a list of all the car post data for that URL. Using this data you can find the post locations, prices, pictures etc. It would be interesting to do some data analysis on some of the stuff in the future.
-
 # Legal Stuff
 
 Not all sites on the web are safe to scrape. Many have policies that make it illegal to “borrow” their data. It is advisable to check the web before trying to scrape a site.
