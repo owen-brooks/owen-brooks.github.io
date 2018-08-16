@@ -6,7 +6,6 @@ categories: Maven Java Build
 tags: featured
 image: /assets/article_images/web-scrape/soup.jpg
 ---
-
 Web scraping is the targeted collection of data from a website. Recently web scraping made major headlines when a programmer was able to scrape LinkedIn and identify employees of Immigrations and Customs Enforcement (ICE). While this is not the most ethical example of its use; web scraping is a very powerful and interesting tool.[Check it out here.](https://motherboard.vice.com/en_us/article/435myg/programmer-used-linkedin-to-find-ice-employees-database)
 
 In this article I will explain web scraping using the Python library – Beautiful Soup. Not only does this library have an awesome name, it is also pretty easy to get working. All the examples will be scraping data from Craigslist, as I am currently working on a nationwide car search app using Craigslist postings.
