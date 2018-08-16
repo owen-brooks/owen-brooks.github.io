@@ -14,8 +14,9 @@ In this article I will explain web scraping using the Python library – Beautif
 # Getting Started
 
 Some over-simplified background info:
-a websites data can be found in its HTML.
-In Chrome, right-clicking and then choosing “view page source”, will let you see the HTML.
+
+- A website's data can be found in the HTML for that site
+- In Chrome, right-clicking and then choosing “view page source”, will let you see the HTML
 
 The following Python3 code will get you the HTML to Craigslist’s home page:
 
