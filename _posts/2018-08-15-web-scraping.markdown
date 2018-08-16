@@ -74,7 +74,7 @@ Example, abbreviated return:
 
 # Scraping Posts
 
-Now that you have a bunch of URLs it is time for the fun stuff. This example will cover the scraping of car postings. However – Craigslist has a ton of weird, interesting stuff you might want to check out. Using one of the base URLs we found above, we will find the post data for tesla in Auburn, AL:
+Now that you have a bunch of URLs it is time for the fun stuff. This example will cover the scraping of car postings. However – Craigslist has a ton of weird, interesting stuff you might want to check out. Using one of the base URLs we found above, we will find the post data for "tesla" in Auburn, AL:
 
 {% highlight python %}
 
