@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intro to Decorators in Python"
+title: "Decorators in Python"
 date: 2018-08-17 08:34:25
 categories: Python
 tags: featured
