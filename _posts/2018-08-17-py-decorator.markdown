@@ -12,10 +12,10 @@ A decorator is a function that takes another function as a input, and does somet
 {% highlight python %}
 
 def FunctionA():
-print('something')
+    print('something')
 
 def FunctionB(someFunction):
-someFunction()
+    someFunction()
 
 FunctionB(FunctionA)
 
@@ -38,11 +38,11 @@ Decorator functions are usually called using Pie syntax. It looks like this:
 {% highlight python %}
 
 def FunctionA():
-print('something')
+    print('something')
 
 @FunctionB
 def FunctionA():
-print('something')
+    print('something')
 
 {% endhighlight %}
 
@@ -64,7 +64,7 @@ Flask is a Python application framework. Decorators are used in Flask web contro
 
 @app.route('/home')
 def home()
-return('You are home')
+    return('You are home')
 
 {% endhighlight %}
 
