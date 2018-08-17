@@ -23,7 +23,7 @@ layout: default
             &nbsp;&nbsp;·&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
-      <a id="toolbarResume">CV</a>
+      <a href="#" onclick="window.open('/assets/resume/2017b.pdf', '_blank', 'fullscreen=yes'); return false;">CV</a>
       &nbsp;&nbsp;·&nbsp;&nbsp;
       <a href={{ "/about/" | prepend: site.baseurl }}>About Me</a>
     </div>
@@ -93,15 +93,6 @@ layout: default
 
     <!-- {{!! After all the posts, we have the previous/next pagination links }}
     {{pagination}} -->
-    
-    <script>
-    toolbarResume = document.getElementById('toolbarResume');
-    toolbarResume.addEventListener("click", loadResume);
 
-
-    function loadResume() {
-           window.open('/assets/resume/2017b.pdf');
-      }
-    </script>
 
 </main>
