@@ -23,7 +23,7 @@ layout: default
             &nbsp;&nbsp;·&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
-      <a href="#" onclick="window.open('data:/assets/resume/2017b.pdf', '_blank', 'fullscreen=yes'); return false;">CV</a>
+      <a href={{ "/cv/" | prepend: site.baseurl }}>CV</a>
       &nbsp;&nbsp;·&nbsp;&nbsp;
       <a href={{ "/about/" | prepend: site.baseurl }}>About Me</a>
     </div>
@@ -93,6 +93,5 @@ layout: default
 
     <!-- {{!! After all the posts, we have the previous/next pagination links }}
     {{pagination}} -->
-
 
 </main>
