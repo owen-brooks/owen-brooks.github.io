@@ -6,3 +6,11 @@ categories: Bloomberg Co-op
 tags: featured
 image: /assets/article_images/bloom.jpg
 ---
+
+After a hectic couple months I am excited to announce I will be working as a Data Technology Co-op at Bloomberg L.P. I interview with over 20 companies and ended the process with 5 offers and 5 qualified alternates. Through this I gained great interview experience and learned a lot about a wide range of companies. The process definitely challenged and improved my time management skills! While it was exciting to receive multiple offers I was indecisive and waiting until the last hour to decide.
+
+The interviewing process at Bloomberg was fairly thorough. The first round you had to record answers to various non-technical questions regarding your interests and the company. The next step was an onsite. This consisted of a meeting with full-time employees, a meeting with current co-ops, and then a technical and non-technical interview. The skills I learned in my recent web-scraping project were really applicable in the interviews. I would consider the process as difficult, relative to the other companies I interviewed with.
+
+I felt Bloomberg was a great fit for the skills I have and the skills I hope to learn. The company’s main product and source of revenue is the Bloomberg Terminal. Every day they ingest, process and then display billions of data points that will go on the Terminal. Clients use the product similar to a browser. They can sift through all this data and make informed decisions on when to buy, sell or hold. I think it is a fascinating product, which drew me to the company.
+
+Interestingly the L.P. in the name stands for Limited Partnership. Wikipedia thinks this was added after Merrill Lynch purchased a 30% stake in 1983.
