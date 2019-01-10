@@ -19,6 +19,6 @@ I created this list from a combination of the job posting, interviews, and the p
 
 3. Learn the basics of **VBA**
 
-4. Exploring using **Excel with Python**
+4. Explore using **Excel with Python**
 
 5. Brush up on **SQL**
