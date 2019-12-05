@@ -2,5 +2,5 @@
 layout: cv
 title: CV
 permalink: /cv/
-cv: /assets/resume/OwenBrooks-CV.pdf
+cv: /assets/Resume/OwenBrooks-CV.pdf
 ---
