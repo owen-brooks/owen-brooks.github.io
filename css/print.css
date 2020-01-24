@@ -21,3 +21,10 @@ page-break-after:never
 .subscribe icon-feed{
   display:none;
 }
+
+::selection {
+  background: #fff2a8; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #fff2a8; /* Gecko Browsers */
+}
