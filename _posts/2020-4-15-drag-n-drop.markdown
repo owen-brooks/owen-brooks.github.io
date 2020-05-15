@@ -14,12 +14,11 @@ Many languages already have libraries for various types of file conversion. In t
 
 ## Steps
 
+![the smallpdf ui](/assets/article_images/drag-n-drop/smallpdf.png)
+
 When doing webscraping / automation, a useful approach is to start by detailing the steps you would use to do that task manually.
 
-Here is a screenshot of the smallpdf site we will be automating:
-![smallpdf screenshot](/assets/article_images/drag-n-drop/small-pdf.png)
-
-The basic steps to use this site are:
+The basic steps to use the smallpdf site are:
 
 1. load the site in the browser
 2. upload the file using drag'n'drop or file explorer
