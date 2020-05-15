@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Drag'n'drop File Conversion with Selenium & Python"
-date: 2019-12-10 08:34:25
+date: 2020-04-10 08:34:25
 categories: Python Selenium
 tags: featured
 image: /assets/article_images/drag-n-drop/palm.jpg
