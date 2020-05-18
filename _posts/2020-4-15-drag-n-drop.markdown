@@ -14,6 +14,7 @@ Many languages already have libraries for various types of file conversion. In t
 
 ## Steps
 
+
 ![the Smallpdf ui](/assets/article_images/drag-n-drop/smallpdf.png)
 
 When doing webscraping / automation, a useful approach is to start by detailing the steps you would use to do that task manually.
@@ -28,6 +29,7 @@ With these steps layed out the next step is translate these into Python code tha
 
 ## 1. Load the site in the browser
 
+
 Selenium works using something called a WebDriver - a "browser automation framework"[2] that is able to control a web browser (Chrome, Firefox, etc.).
 In this case, Python will be used to control the WebDriver and send the desired commands to the browser.
 
@@ -37,6 +39,7 @@ profile = webdriver.FirefoxProfile()
 profile.set_preference('browser.download.manager.showWhenStarting', False)
 profile.set_preference("browser.helperApps.neverAsk.saveToDisk",
                           "binary/octet-stream")
+                          
 driver = webdriver.Firefox(firefox_profile=profile)
 ```
 
@@ -52,6 +55,7 @@ driver.get("https://smallpdf.com/pdf-to-excel")
 The Firefox browser should pop up on your machine. Note: Selenium allows the browser to be run in the background if desired.
 
 ## 2. Upload the file using drag'n'drop or file explorer
+
 
 The following code will upload you pdf file to the Smallpdf site:
 
@@ -78,6 +82,7 @@ convert_to_excel_btn.click()
 If you are not familiar with XPATH it is used to query and locate elements in the HTML. [3] It comes in handy when doing anything with the web.
 
 ## 3. Download the converted file
+
 
 Now that our file has been converted by the site it can be downloaded with the following code:
 
