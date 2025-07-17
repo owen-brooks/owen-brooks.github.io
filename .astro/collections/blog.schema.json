@@ -68,7 +68,9 @@
           "items": {
             "type": "string"
           },
-          "default": ["others"]
+          "default": [
+            "others"
+          ]
         },
         "ogImage": {
           "type": "string"
@@ -89,7 +91,11 @@
           "type": "string"
         }
       },
-      "required": ["pubDatetime", "title", "description"],
+      "required": [
+        "pubDatetime",
+        "title",
+        "description"
+      ],
       "additionalProperties": false
     }
   },
